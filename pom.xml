@@ -26,7 +26,6 @@
   
   <!-- j'ajoute le nom de build -->
   <build>
-  <finalName>devops-simple
-  </finalName>
+  <finalName>devops-simple </finalName>
   </build>
 </project>

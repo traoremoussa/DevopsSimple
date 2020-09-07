@@ -6,8 +6,9 @@ package com.devopsSimple.DevopsSimple;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public static void main( String[] args )
+	{
+		Test t=new Test();
+		System.out.println( "Hello World! " +t.additionner.apply(4, 5));
+	}
 }
