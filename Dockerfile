@@ -20,6 +20,6 @@ FROM openjdk:8
 EXPOSE 8080
     #ADD target/devops-simple.jar devops-simple.jar
     # copy over the built artifact from the maven image
-COPY --from=maven /tmp/devops-simple.jar ./devops-simple.jar
+COPY --from=MAVEN_IMAGE /tmp/devops-simple.jar ./devops-simple.jar
 #commande pour executé le jar generer 
 ENTRYPOINT ["java","-jar","/devops-simple.jar"]
